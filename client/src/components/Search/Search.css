@@ -1,0 +1,23 @@
+li.resultsBoxes {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.searchResultsBox {
+    min-width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.formInput {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.centeredContent {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}

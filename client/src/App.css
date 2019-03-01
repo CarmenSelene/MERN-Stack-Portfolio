@@ -1,0 +1,74 @@
+h1 {
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+    font-size: calc(18px + 3vmin);
+}
+
+h1.siteTitle {
+  font-size: calc(26px + 6vmin);
+  letter-spacing: 6px;
+}
+
+ul {
+  margin: 10px;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li {
+  list-style-type: none;
+  font-size: calc(14px + 2vmin);
+  margin: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+  letter-spacing: 8px;
+  text-align: justify;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(12px + 2vmin);
+  color: white;
+  text-transform: uppercase;
+}
+
+.App-body {
+  background-color: lightblue;
+  min-height: 110vh;
+  font-size: calc(5px + 2vmin);
+  color: black;
+  padding: 15px;
+  margin: 0px;
+}
+
+.App-navbar {
+  border-color: rgb(255, 169, 169);
+  border-width: 2px;
+  border-style: inset;
+  text-transform: uppercase;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 12vh;
+  font-size: calc(18px + 2vmin);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+}

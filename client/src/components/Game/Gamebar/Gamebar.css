@@ -1,0 +1,19 @@
+ul.gameBar {
+    display: flex;
+    flex-direction: row;
+    border-color: rgb(214, 3, 151);
+    border-width: 12px;
+    border-style: inset;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+li.gameBars {
+    display: inline;
+    margin: auto;
+}
+
+.gameBar {
+    margin-bottom: 35px;
+    margin-top: 55px;
+}

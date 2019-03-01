@@ -1,0 +1,30 @@
+.videoSpacer {
+    margin: auto;
+    text-align: center;
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+p.videoCaption {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    letter-spacing: 8px;
+    font-size: calc(16px + 18vh);
+    font-style: oblique;
+    font-variant-caps: all-small-caps;
+    text-align: center;
+    padding: 35px;
+    display: inline;
+}
+
+.homevideobody {
+    margin: 5px;
+    padding: 0px;
+    min-height: 90vh;
+}

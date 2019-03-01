@@ -1,0 +1,29 @@
+li.clickyBoxes {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+img.clickyBoxes {
+    width: 250px;
+    height: 225px;
+}
+
+.clickyBox {
+    max-height: 70vh;
+    width: 100%;
+}
+
+.gameOver {
+    text-align: center;
+    margin: 150px;
+    font-weight: bolder;
+}
+
+.gameOverButton {
+    text-align: center;
+    font-size: 25px;
+    background-color: red;
+    padding: 15px;
+    font-weight: bolder;
+}

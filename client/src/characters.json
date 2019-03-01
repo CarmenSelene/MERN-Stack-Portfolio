@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "name": "Firsty",
+        "universe": "Firsty Land",
+        "imgSrc": 
+            "https://image.shutterstock.com/image-illustration/beautiful-anime-girl-long-hair-260nw-1267307512.jpg"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 1,
+        "name": "Sally",
+        "universe": "Sally Land",
+        "imgSrc": 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3qDG7gCoGTu2zhe83WyX84e1WpfhGv7AK1PDneiiCdAOBeMvk"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 2,
+        "name": "Winston",
+        "universe": "Winston Land",
+        "imgSrc": 
+            "http://s1.1zoom.me/big3/986/Vocaloid_Feathers_ame_no_438390.jpg"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 3,
+        "name": "Hally",
+        "universe": "Hally Land",
+        "imgSrc": 
+            "https://i.ytimg.com/vi/lp4jPRi_nRc/maxresdefault.jpg"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 4,
+        "name": "Tally",
+        "universe": "Tally Land",
+        "imgSrc": 
+            "https://cdn.pastemagazine.com/www/articles/Cowboy%20Bebop%20Anime%2050%20Main.jpeg"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 5,
+        "name": "Dally",
+        "universe": "Dally Land",
+        "imgSrc": 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMhujQNUjjZaMJqZkMimJ1jJK5oLTB1_9d3ZAnCr5ydUPcHIXR4w"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 6,
+        "name": "Rally Mally",
+        "universe": "Rally Land",
+        "imgSrc": 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlVBl_CpXVnCwnrraqHS5WXiQpMAv04GkhH0m2NEpDckNVI-Zm"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 7,
+        "name": "Mally Rally",
+        "universe": "Rally Land",
+        "imgSrc": 
+            "https://res.cloudinary.com/sfp/image/upload/q_60/cste/4a160ef2-e516-43ec-8b7f-97816f00c234.jpg"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 8,
+        "name": "SecondLasty",
+        "universe": "Lasty Land",
+        "imgSrc": 
+            "https://static3.cbrimages.com/wordpress/wp-content/uploads/2019/01/One-Punch-Man-1.jpg"
+        ,
+        "isClicked": false
+    },
+    {
+        "id": 9,
+        "name": "Lasty",
+        "universe": "Lasty Land",
+        "imgSrc": 
+            "https://darkartangel.files.wordpress.com/2015/01/8589130457234-anime-boy-wallpaper-hd.jpg"
+        ,
+        "isClicked": false
+    }
+]
