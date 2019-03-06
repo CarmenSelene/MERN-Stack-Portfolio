@@ -1,21 +1,20 @@
 import React from "react";
 import "./GameBox.css";
 
-function ResultList(props) {
+function Gameresults(props) {
   return (
-    <div className="clickyBox">
-      <ul className="clickyBoxes">
-        {props.results.map(results => (
-          <li className="clickyBoxes" key={results.id}>
-            <img className="clickyBoxes" id={results.id} alt={results.name} src={results.imgSrc} onClick={() => {
+    <ul className="gameBox">
+      {props.results.map(results => (
+        <li className="clickyBoxes" key={results.id}>
+          <img className="clickyBoxes" id={results.id} alt={results.name}
+            src={results.imgSrc} onClick={() => {
               props.getId(results);
               props.updateCounterClick();
             }} />
-          </li>
-        ))}
-      </ul>
-    </div>
+        </li>
+      ))}
+    </ul>
   );
 }
 
-export default ResultList;
+export default Gameresults;

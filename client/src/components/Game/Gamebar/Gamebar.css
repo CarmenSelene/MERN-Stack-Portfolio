@@ -11,9 +11,6 @@ ul.gameBar {
 li.gameBars {
     display: inline;
     margin: auto;
-}
-
-.gameBar {
-    margin-bottom: 35px;
-    margin-top: 55px;
+    font-size: calc(14px + 2vmin);
+    padding: 25px;
 }

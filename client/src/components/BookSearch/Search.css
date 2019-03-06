@@ -1,0 +1,25 @@
+ul.resultsBoxes {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+li.eachResult {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 25px;
+    font-size: calc(12px + 2vmin);
+    margin: 35px;
+}
+
+.formInput {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.centeredContent {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}

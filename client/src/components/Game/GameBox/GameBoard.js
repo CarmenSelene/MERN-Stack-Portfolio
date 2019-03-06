@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Masterlist from "../../../characters.json";
-import ResultList from "./ResultList";
+import Gameresults from "./ResultList";
 import Gamebar from "../Gamebar/Gamebar";
 import GameOver from "./GameOver";
 
@@ -75,7 +75,7 @@ export default class GameBoard extends Component {
                         countstate={this.state.Count}
                         gamestate={this.state.Gameover}
                     />
-                    <ResultList
+                    <Gameresults
                         results={this.state.Masterlist}
                         updateCounterClick={this.updateCounterClick}
                         changeAndShuffle={this.changeAndShuffle}

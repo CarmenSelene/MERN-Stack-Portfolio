@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../Navbar/Navbar.css";
 import API from "../../utils/API";
 import SearchForm from "./SearchForm";
-import ResultList from "./ResultList";
+import Matchresults from "./ResultList";
 
 class Search extends Component {
     state = {
@@ -15,7 +15,7 @@ class Search extends Component {
     };
 
     doTheSearch = query => {
-        API.search(query)
+        API.searchGiphy(query)
             .then(res => this.setState({ results: res.data.data }))
             .catch(err => console.log(err));
     };
@@ -41,7 +41,7 @@ class Search extends Component {
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
                 />
-                <ResultList results={this.state.results} />
+                <Matchresults results={this.state.results} />
             </div>
         );
     }

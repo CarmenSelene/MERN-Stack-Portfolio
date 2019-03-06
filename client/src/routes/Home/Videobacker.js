@@ -23,9 +23,9 @@ class Videobacker extends Component {
             <div style={{
                 objectFit: 'cover',
                 width: '100%',
-                height: '80%',
+                height: '100%',
                 position: 'relative',
-                'z-index': '0'
+                'zIndex': '0'
             }}>
                 <VideoCover
                     videoOptions={videoOptions}>

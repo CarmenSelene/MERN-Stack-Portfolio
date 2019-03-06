@@ -1,8 +1,9 @@
 import React from "react";
+import "./Search.css";
 
 function SearchForm(props) {
   return (
-      <form>
+      <form className="giphySeachInputBar">
         <div className="formInput">
           <input
             onChange={props.handleInputChange}
@@ -13,7 +14,7 @@ function SearchForm(props) {
             placeholder="Search for a Gif"
             id="search"
           />
-          <button onClick={props.handleFormSubmit} className="btn btn-primary mt-3">
+          <button onClick={props.handleFormSubmit} className="btn btn-primary btn-lg mt-3">
             Search
         </button>
         </div>

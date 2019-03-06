@@ -1,13 +1,19 @@
-li.resultsBoxes {
-    float: left;
-    padding: 5px;
-    margin: 10px;
+ul.matchBox {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5vh;
 }
 
-.searchResultsBox {
-    min-width: 95%;
-    margin: auto;
-    text-align: center;
+li.resultsBoxes {
+    list-style-type: none;
+    display: inline-block;
+}
+
+img.clickyBoxes {
+    width: 250px;
+    height: 225px;
+    margin: 5px;
 }
 
 .formInput {
@@ -20,4 +26,8 @@ li.resultsBoxes {
     max-width: 50%;
     margin: auto;
     text-align: center;
+}
+
+.giphySeachInputBar {
+    margin-bottom: 25px;
 }
