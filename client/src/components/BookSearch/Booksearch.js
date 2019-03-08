@@ -39,6 +39,12 @@ export default class Booksearch extends React.Component {
         this.doTheSearch(this.state.search);
     };
 
+    saveBook = (title, author, link) => {
+        API.saveBook(title, author, link)
+        //   .then(res => this.setState({ books: res.data }))
+          .catch(err => console.log(err));
+      };
+
     render() {
         return (
             <div className="wrapper">
@@ -47,7 +53,7 @@ export default class Booksearch extends React.Component {
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
                 />
-                <Bookresults results={this.state.results} />
+                <Bookresults results={this.state.results} savebook={this.saveBook} />
             </div>
         );
     }

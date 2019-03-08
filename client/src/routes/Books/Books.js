@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
-import Booksearch from "../../components/BookSearch/Booksearch";
+import Bookpagecontroller from "./Bookpagecontroller";
 
 function Books() {
     return (
         <div className="wrapper">
             <header className="App-header">
-            <h1 className="siteTitle">Book Search</h1>
+            <h1 className="siteTitle">Books</h1>
                 <Navbar />
             </header>
             <div className="App-body">
-            <Booksearch />
+            <Bookpagecontroller />
             </div>
         </div>
     );

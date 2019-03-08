@@ -2,3 +2,12 @@
   float: right;
   color: #e74944;
 }
+
+A.delLink { color: black; padding: 5px; text-decoration: none; }
+
+A:link.delLink { text-decoration: none }
+
+A:active.delLink { text-decoration: none }
+
+A:hover.delLink { background-color: transparent; text-decoration: underline; border: 0px; text-shadow: 2px 2px #b6b6b6;}
+

@@ -4,7 +4,7 @@ const GiphyBASEURL = "https://api.giphy.com/v1/gifs/search?q=";
 const GiphyAPIKEY = "&api_key=dc6zaTOxFJmzC&limit=10";
 
 const BookBASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
-const BookAPIKEY = "&orderBy=newest&key=AIzaSyBA5W1Pai3EOGHoi_DawZdVwpJMRs72tck";
+const BookAPIKEY = "&orderBy=newest";
 
 export default {
   // Search GIPHY API
@@ -28,7 +28,7 @@ export default {
     return axios.delete("/api/books/" + id);
   },
   // Saves a db.item to the database
-  saveBook: function (bookData) {
-    return axios.post("/api/books", bookData);
+  saveBook: function (title, author, link) {
+    return axios.post("/api/books/" + {title: title, author: author, link: link});
   }
 };

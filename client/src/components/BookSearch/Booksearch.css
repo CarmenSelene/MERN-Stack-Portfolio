@@ -1,0 +1,57 @@
+ul.resultsBoxes {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+li.eachResult {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 25px;
+    font-size: calc(12px + 2vmin);
+    margin: 35px;
+}
+
+.formInput {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.centeredContent {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+p.bookTitle {
+    color: red;
+    font-size: calc(14px + 4vh);
+}
+
+p.bookAuthors {
+    font-size: calc(8px + 2vh);
+    text-align: left;
+}
+
+p.bookDesc {
+    font-size: calc(8px + 2vh);
+    text-align: left;
+}
+
+p.bookCat {
+    font-size: calc(8px + 2vh);
+    text-align: justify;
+}
+
+img.bookImg {
+    margin: 5px;
+}
+
+A.bookLink { color: black; padding: 5px; text-decoration: none; }
+
+A:link.bookLink { text-decoration: none }
+
+A:active.bookLink { text-decoration: none }
+
+A:hover.bookLink { background-color: transparent; text-decoration: underline; border: 0px; text-shadow: 2px 2px #b6b6b6;}

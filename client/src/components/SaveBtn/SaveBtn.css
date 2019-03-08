@@ -1,0 +1,12 @@
+.save-btn {
+  float: right;
+  color: #e74944;
+}
+
+A.saveLink { color: black; text-decoration: none; }
+
+A:link.saveLink { text-decoration: none }
+
+A:active.saveLink { text-decoration: none }
+
+A:hover.saveLink { background-color: transparent; text-decoration: underline; border: 0px; text-shadow: 2px 2px #b6b6b6;}

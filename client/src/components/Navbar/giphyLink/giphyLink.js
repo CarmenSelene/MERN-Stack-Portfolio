@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "../Navbar.css";
 
-function aboutLink() {
+function giphyLink() {
     return (
         <li className="nav-item menuLink">
-        <Link to={'/about'}><strong>About</strong></Link>
+        <Link to={'/giphy'}><strong>Giphy</strong></Link>
         </li>
     );
 }
 
-export default aboutLink;
+export default giphyLink;

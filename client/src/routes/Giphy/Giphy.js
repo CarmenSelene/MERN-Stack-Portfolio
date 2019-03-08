@@ -1,21 +1,21 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
-import Search from "../../components/Search/Search";
-import Abouttext from "./Abouttext";
+import Giphysearch from "../../components/Giphysearch/Search";
+import Giphytext from "./Giphytext";
 
-function About() {
+function Giphy() {
     return (
         <div className="wrapper">
             <header className="App-header">
-            <h1 className="siteTitle">About</h1>
+            <h1 className="siteTitle">Giphy</h1>
                 <Navbar />
             </header>
             <div className="App-body">
-            <Abouttext />
-            <Search />
+            <Giphytext />
+            <Giphysearch />
             </div>
         </div>
     );
 }
 
-export default About;
+export default Giphy;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Search.css";
 
-function Matchresults(props) {
+function Giphytext(props) {
   return (
     <ul className="matchBox">
       {props.results.map(result => (
@@ -14,4 +14,4 @@ function Matchresults(props) {
   );
 }
 
-export default Matchresults;
+export default Giphytext;
