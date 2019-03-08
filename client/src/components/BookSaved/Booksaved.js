@@ -35,7 +35,7 @@ export default class Booksaved extends React.Component {
     return (
       <span className="savedBooksBox">
       <Container fluid>
-        <span><strong>My Saved Books: </strong></span>
+        <span><h2>My Saved Books</h2></span>
             {this.state.books.length ? (
               <List>
                 {this.state.books.map(book => (
