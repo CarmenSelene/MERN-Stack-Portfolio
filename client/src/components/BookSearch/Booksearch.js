@@ -13,6 +13,7 @@ export default class Booksearch extends React.Component {
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
         this.doTheSearch = this.doTheSearch.bind(this);
+        this.savebook = this.savebook.bind(this);
     };
 
     componentDidMount() {
@@ -39,9 +40,9 @@ export default class Booksearch extends React.Component {
         this.doTheSearch(this.state.search);
     };
 
-    saveBook = (title, author, link) => {
+    savebook = (title, author, link) => {
         API.saveBook(title, author, link)
-        //   .then(res => this.setState({ books: res.data }))
+          .then(res => this.setState({ books: res.data }))
           .catch(err => console.log(err));
       };
 
@@ -53,7 +54,7 @@ export default class Booksearch extends React.Component {
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
                 />
-                <Bookresults results={this.state.results} savebook={this.saveBook} />
+                <Bookresults results={this.state.results} savebook={this.savebook} />
             </div>
         );
     }

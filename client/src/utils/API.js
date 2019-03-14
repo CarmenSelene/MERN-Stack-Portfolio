@@ -29,6 +29,6 @@ export default {
   },
   // Saves a db.item to the database
   saveBook: function (title, author, link) {
-    return axios.post("/api/books/" + {title: title, author: author, link: link});
+    return axios.post("/api/books/", {title: title, author: author, link: link});
   }
 };

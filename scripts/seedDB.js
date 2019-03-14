@@ -3,26 +3,26 @@ const db = require("../models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/googlebooklist", { useNewUrlParser: true }
+  "mongodb://localhost/testBookDB", { useNewUrlParser: true }
 );
 
 const bookSeed = [
   {
     title: "The Dead Zone",
-    author: "Stephen King",
-    link: "link.address",
+    author: ["Stephen King", "William Golding"],
+    link: "link.address1",
     date: new Date(Date.now())
   },
   {
     title: "Lord of the Flies",
-    author: "William Golding",
-    link: "link.address",
+    author: ["William Golding", "Stephen King"],
+    link: "link.address2",
     date: new Date(Date.now())
   },
   {
     title: "The Catcher in the Rye",
-    author: "J.D. Salinger",
-    link: "link.address",
+    author: ["Stephen King"],
+    link: "link.address3",
     date: new Date(Date.now())
   }
 ];

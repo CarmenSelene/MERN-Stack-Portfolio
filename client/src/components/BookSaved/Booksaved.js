@@ -4,7 +4,6 @@ import DeleteBtn from "../DeleteBtn";
 import { Container } from "../Grid";
 import { List, ListItem } from "../List";
 
-
 export default class Booksaved extends React.Component {
     constructor(props) {
         super(props);
@@ -12,9 +11,12 @@ export default class Booksaved extends React.Component {
           books: []
         };
     };
-
     
   componentDidMount() {
+    this.loadBooks();
+  }
+
+  componentDidUpdate() {
     this.loadBooks();
   }
 
@@ -24,8 +26,8 @@ export default class Booksaved extends React.Component {
       .catch(err => console.log(err));
   };
 
-  delBook = () => {
-    API.deleteBook()
+  delBook = (id) => {
+    API.deleteBook(id)
       .then(res => this.setState({ books: res.data }))
       .catch(err => console.log(err));
   };
@@ -39,7 +41,7 @@ export default class Booksaved extends React.Component {
               <List>
                 {this.state.books.map(book => (
                   <ListItem key={book._id}>
-                    <a href={"/books/" + book._id}>
+                    <a href={"/books" + book._id}>
                       <strong>
                         {book.title} by {book.author}
                       </strong>
