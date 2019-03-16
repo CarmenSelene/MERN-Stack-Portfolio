@@ -1,5 +1,6 @@
 # dependencies
 node_modules
+client/node_modules
 
 # misc
 .DS_Store
@@ -9,3 +10,6 @@ node_modules
 .env.production.local
 
 npm-debug.log*
+
+# for production build
+client/build
