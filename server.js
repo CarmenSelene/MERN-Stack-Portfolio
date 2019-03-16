@@ -14,9 +14,11 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
-// Connect to the Mongo DB
+const url = "mongodb://Demouser:1password@ds137882.mlab.com:37882/heroku_f7s66bjv";
+
+// Connect to the Mongo DB 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://Demouser:1password@ds137882.mlab.com:37882/heroku_f7s66bjv", { useNewUrlParser: true }
+  process.env.MONGODB_URI || url, { useNewUrlParser: true }
 );
 
 app.listen(PORT, function() {
