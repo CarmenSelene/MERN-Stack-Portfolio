@@ -16,6 +16,10 @@ export default class Booksaved extends React.Component {
     this.loadBooks();
   }
 
+  componentDidUpdate() {
+    this.loadBooks();
+  }
+
   loadBooks = () => {
     API.getBooks()
       .then(res => this.setState({ books: res.data }))
