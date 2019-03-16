@@ -1,29 +1,37 @@
-# Create React Express App
+# MERN application that utilizes
 
-## About This Boilerplate
+Features:
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Routing
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+NPM - React-Router to control page routing
 
-## Starting the app locally
+## Embedded Full Screen Video
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+NPM package and custom CSS with On-Click play-pause
 
-```
-npm install
-```
+## Giphy API Search
 
-This should install node modules within the server and the client folder.
+Search pane for Giphy API image search and maps results
 
-After both installations complete, run the following command in your terminal:
+## JSON Match Game
 
-```
-npm start
-```
+Javascript reads a json file to create image array with properties including isClicked boolean property. Game tracks how many images can be clicked on without repeating an image. Image array shuffles after each selection to add difficulty.
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Google Books API and Mongo DB Storage
+
+Search books via Google Books API, map results and uses MongoDB to store and display results of "saved" books on linked page.
+
+## Mongoose
+
+Models and controllers to augment MongoDB via Mongoose
+
+## Functional Contact Form
+
+Contact me!
 
 ## Deployment (Heroku)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Heroku and MLad for deployment and deployed DB storage.
+
+View deployed at: https://polar-garden-68187.herokuapp.com/
