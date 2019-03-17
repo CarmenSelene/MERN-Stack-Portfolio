@@ -14,6 +14,9 @@ img.clickyBoxes {
     width: 250px;
     height: 225px;
     margin: 5px;
+    border: inset;
+    border-color: red;
+    border-width: 8px;
 }
 
 .gameOver {

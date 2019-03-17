@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Masterlist from "../../../characters.json";
+import Masterlist from "./characters.json";
 import Gameresults from "./ResultList";
 import Gamebar from "../Gamebar/Gamebar";
 import GameOver from "./GameOver";

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "imgSrc": "https://i.pinimg.com/originals/3d/d5/3b/3dd53ba8169520022ff37b9f2d653f6d.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 1,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVMKGL_OzteExzsEzRkLHCKZ6IKP6oKtHkz071gZ_BW1G1jJe-lA",
+        "isClicked": false
+    },
+    {
+        "id": 2,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51FZSYIA-i0L4sIsB_n-GSfQbikffQDk98f-SmNs_Xu633dcwfg",
+        "isClicked": false
+    },
+    {
+        "id": 3,
+        "imgSrc": "https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 4,
+        "imgSrc": "https://cdn.pastemagazine.com/www/articles/Cowboy%20Bebop%20Anime%2050%20Main.jpeg",
+        "isClicked": false
+    },
+    {
+        "id": 5,
+        "imgSrc": "http://news.bbcimg.co.uk/media/images/69824000/jpg/_69824877_69824291.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 6,
+        "imgSrc": "https://i.ytimg.com/vi/x3gq1p_CwCE/maxresdefault.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 7,
+        "imgSrc": "https://static1.squarespace.com/static/5612f737e4b0b59b835093d3/t/564b7ad9e4b0acbf242a7c98/1447787228019/",
+        "isClicked": false
+    },
+    {
+        "id": 8,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7cGXtkt3759TwtQ0r2haHikbwmsoL1P0vQt37b-PulnDRiOWe",
+        "isClicked": false
+    },
+    {
+        "id": 9,
+        "imgSrc": "https://darkartangel.files.wordpress.com/2015/01/8589130457234-anime-boy-wallpaper-hd.jpg",
+        "isClicked": false
+    }
+]
