@@ -49,7 +49,7 @@ export default class Booksaved extends React.Component {
               <List>
                 {this.state.books.map(book => (
                   <ListItem className="savedBooksEach" key={book._id}>
-                    <a href={"/books" + book._id}>
+                    <a href={book.link}>
                       <strong>
                         {this.shortenTitle(book.title)}
                       </strong>
