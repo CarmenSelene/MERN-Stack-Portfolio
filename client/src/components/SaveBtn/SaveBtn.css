@@ -1,6 +1,6 @@
 .save-btn {
+  display: flex;
   float: right;
-  color: #e74944;
 }
 
 A.saveLink { color: black; text-decoration: none; }

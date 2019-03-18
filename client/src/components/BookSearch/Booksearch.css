@@ -24,23 +24,27 @@ li.eachResult {
     text-align: center;
 }
 
-p.bookTitle {
-    color: red;
-    font-size: calc(14px + 4vh);
+P.bookTitle {
+display: flex;
+text-align: justify;
 }
 
 p.bookAuthors {
-    font-size: calc(8px + 2vh);
+    font-size: 14px;
+    display: flex;
     text-align: left;
+    letter-spacing: 2px;
 }
 
 p.bookDesc {
-    font-size: calc(8px + 2vh);
+    font-size: 16px;
+    display: inline-block;
     text-align: left;
 }
 
 p.bookCat {
-    font-size: calc(8px + 2vh);
+    font-size: 12px;
+    display: flex;
     text-align: justify;
 }
 
@@ -48,10 +52,10 @@ img.bookImg {
     margin: 5px;
 }
 
-A.bookLink { color: black; padding: 5px; text-decoration: none; }
+A.bookLink { color: blue; text-decoration: none; font-size: 22px;}
 
 A:link.bookLink { text-decoration: none }
 
 A:active.bookLink { text-decoration: none }
 
-A:hover.bookLink { background-color: transparent; text-decoration: underline; border: 0px; text-shadow: 2px 2px #b6b6b6;}
+A:hover.bookLink { text-decoration: none; text-shadow: 1px 1px #555eb4; }

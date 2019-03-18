@@ -28,6 +28,7 @@ h1.siteTitle {
   margin: 0px;
   min-width: 100%;
   text-align: center;
+  min-height: 80vh;
 }
 
 .App-navbar {
@@ -46,12 +47,14 @@ h1.siteTitle {
 .App-footer {
   background-color: #282c34;
   max-height: 18vh;
+  width: 100%;
   font-size: calc(18px + 2vmin);
   color: white;
   text-transform: uppercase;
   text-align: center;
   padding: 30px;
   margin: 0px;
+  display: inline-block;
 }
 
 .App-link {

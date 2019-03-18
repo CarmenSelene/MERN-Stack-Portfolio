@@ -3,6 +3,7 @@ import API from "../../utils/API";
 import DeleteBtn from "../DeleteBtn";
 import { Container } from "../Grid";
 import { List, ListItem } from "../List";
+import "./Booksaved.css";
 
 export default class Booksaved extends React.Component {
     constructor(props) {
@@ -32,6 +33,13 @@ export default class Booksaved extends React.Component {
       .catch(err => console.log(err));
   };
 
+  shortenTitle = (thisBook) => {
+        const parseTitle = thisBook.split(" ");
+        const shortenTitle = parseTitle.slice(0, 9);
+        const reSpacedTitle = shortenTitle.join(' ');
+        return reSpacedTitle;
+  }
+
   render() {
     return (
       <span className="savedBooksBox">
@@ -40,10 +48,10 @@ export default class Booksaved extends React.Component {
             {this.state.books.length ? (
               <List>
                 {this.state.books.map(book => (
-                  <ListItem key={book._id}>
+                  <ListItem className="savedBooksEach" key={book._id}>
                     <a href={"/books" + book._id}>
                       <strong>
-                        {book.title} by {book.author}
+                        {this.shortenTitle(book.title)}
                       </strong>
                     </a>
                     <DeleteBtn onClick={() => this.delBook(book._id)} />

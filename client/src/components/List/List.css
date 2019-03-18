@@ -2,18 +2,21 @@
   max-height: 545px;
   border: 1px #DDDDDD solid;
   border-radius: 4px;
-  overflow-y: scroll;
+  overflow-y: visible;
   overflow-x: hidden;
 }
 
 .list-overflow-container ul {
   margin: 0;
+  letter-spacing: 1px;
+  max-height: 60vh;
 }
 
 .list-overflow-container li {
   border-radius: 0px;
   border-left: none;
   border-right: none;
+  display: inline-block;
 }
 
 .list-overflow-container li * {

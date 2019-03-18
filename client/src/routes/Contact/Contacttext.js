@@ -14,7 +14,7 @@ function Contacttext() {
                                 required="required" id="name-form1-2w" />
                         </div>
                     </div>
-                    <input type="hidden" name="_subject" value="Portfolio Contact Email Submission" className="hideMe" />
+                    <input type="hidden" name="_subject" value="Portfolio Contact Form" className="hideMe" />
                     <input type="hidden" name="_format" value="plain" className="hideMe" />
                     <input type="text" name="_gotcha" className="hideMe" />
                     <div class="col-sm-6 multi-horizontal" data-for="email">
@@ -31,7 +31,7 @@ function Contacttext() {
                         data-form-field="Message" id="message-form1-2w"></textarea>
                 </div>
                 <div class="input-group-btn p-2 pt-3 mx-5">
-                    <button href="" type="submit" class="btn btn-secondary btn-form btn-block display-4">Submit</button>
+                    <button type="submit" class="btn btn-secondary btn-form btn-block display-4">Submit</button>
                 </div>
             </form>
         </span>
