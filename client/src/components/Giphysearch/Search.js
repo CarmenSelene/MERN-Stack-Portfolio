@@ -3,6 +3,7 @@ import "../Navbar/Navbar.css";
 import API from "../../utils/API";
 import SearchForm from "./SearchForm";
 import Matchresults from "./ResultList";
+import "./Search.css";
 
 class Search extends Component {
     state = {
@@ -36,12 +37,14 @@ class Search extends Component {
     render() {
         return (
             <div className="wrapper">
+                <h1>Axios/API Demo</h1>
                 <SearchForm
                     search={this.state.search}
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
                 />
-                <Matchresults results={this.state.results} />
+                <Matchresults
+                    results={this.state.results} />
             </div>
         );
     }

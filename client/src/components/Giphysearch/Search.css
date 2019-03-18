@@ -1,41 +1,29 @@
-ul.matchBox {
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 5vh;
-}
+
 
 li.resultsBoxes {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
 }
 
 img.clickyBoxes {
-    width: 250px;
-    height: 225px;
+    width: 150px;
+    height: 125px;
     margin: 5px;
 }
 
-input#search {
-    width: 500px;
-    margin-right: 50px;
-    text-align: center;
+ul.giphySearchBar {
+    display: inline-flex;
+    flex-direction: row;
 }
 
-button#giphySearchButton {
-    width: 300px;
-}
-
-.giphySearchBar {
+li.giphySearch {
+    list-style-type: none;
     display: inline-block;
-    min-width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    font-size: 18px;
 }
 
-.formInput {
-display: inline-flex;
-padding: 50px;
-padding-top: 5px;
-}
+
 
