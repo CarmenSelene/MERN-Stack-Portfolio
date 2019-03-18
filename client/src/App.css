@@ -24,9 +24,8 @@ h1.siteTitle {
   background-color: lightblue;
   display: inline-block;
   color: black;
-  padding: 15px;
+  padding: 5px;
   margin: 0px;
-  min-width: 100%;
   text-align: center;
   min-height: 80vh;
 }

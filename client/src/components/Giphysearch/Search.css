@@ -16,18 +16,26 @@ img.clickyBoxes {
     margin: 5px;
 }
 
+input#search {
+    width: 500px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+button#giphySearchButton {
+    width: 300px;
+}
+
+.giphySearchBar {
+    display: inline-block;
+    min-width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .formInput {
-    max-width: 50%;
-    margin: auto;
-    text-align: center;
+display: inline-flex;
+padding: 50px;
+padding-top: 5px;
 }
 
-.centeredContent {
-    max-width: 50%;
-    margin: auto;
-    text-align: center;
-}
-
-.giphySeachInputBar {
-    margin-bottom: 25px;
-}
