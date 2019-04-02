@@ -1,8 +1,6 @@
 import React from "react";
 import API from "../../utils/API";
 import DeleteBtn from "../DeleteBtn";
-import { Container } from "../Grid";
-import { List, ListItem } from "../List";
 import "./Booksaved.css";
 
 export default class Booksaved extends React.Component {
@@ -42,27 +40,25 @@ export default class Booksaved extends React.Component {
 
   render() {
     return (
-      <span className="savedBooksBox">
-      <Container fluid>
-        <span><h2>My Saved Books</h2></span>
+      <div className="wrapper">
+        <h2>My Saved Books</h2>
             {this.state.books.length ? (
-              <List>
+              <ul className="savedBooksArray">
                 {this.state.books.map(book => (
-                  <ListItem className="savedBooksEach" key={book._id}>
+                  <li className="savedBooksEach" key={book._id}>
                     <a href={book.link}>
                       <strong>
                         {this.shortenTitle(book.title)}
                       </strong>
                     </a>
                     <DeleteBtn onClick={() => this.delBook(book._id)} />
-                  </ListItem>
+                  </li>
                 ))}
-              </List>
+              </ul>
             ) : (
               <h3>No Results to Display</h3>
             )}
-      </Container>
-      </span>
+      </div>
     );
   }
 }

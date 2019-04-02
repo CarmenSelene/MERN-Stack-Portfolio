@@ -1,3 +1,9 @@
-.savedBooksBox {
-    min-height: 90vh;
+ul.savedBooksArray {
+    width: 100%;
+}
+
+li.savedBooksEach {
+    padding: 3px;
+    margin: 5px;
+    list-style-type: none;
 }

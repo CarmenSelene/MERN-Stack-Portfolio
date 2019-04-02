@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className="wrapper">
             <header className="App-header">
-                <h1 className="siteTitle">Home</h1>
+                <h1 className="siteTitle">Saryn Caister</h1>
                 <Navbar />
             </header>
             <div className="homevideobody">

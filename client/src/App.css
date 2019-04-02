@@ -20,21 +20,20 @@ h1.siteTitle {
   text-transform: uppercase;
 }
 
-.App-body {
-  background-color: lightblue;
-  display: inline-block;
-  color: black;
-  padding: 5px;
-  margin: 0px;
-  text-align: center;
-  min-height: 80vh;
-}
-
 .App-navbar {
   border-color: rgb(255, 169, 169);
   border-width: 2px;
   border-style: inset;
   text-transform: uppercase;
+}
+
+.App-body {
+  background-color: lightblue;
+  color: black;
+  padding: 15px;
+  margin: 0px;
+  text-align: center;
+  min-height: 80vh;
 }
 
 .wrapper {
@@ -51,7 +50,7 @@ h1.siteTitle {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   margin: 0px;
   display: inline-block;
 }

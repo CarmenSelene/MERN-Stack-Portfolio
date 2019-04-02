@@ -9,9 +9,7 @@ function Books() {
             <h1 className="siteTitle">Books</h1>
                 <Navbar />
             </header>
-            <div className="App-body">
             <Bookpagecontroller />
-            </div>
         </div>
     );
 }

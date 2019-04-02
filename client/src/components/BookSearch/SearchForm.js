@@ -3,6 +3,7 @@ import "./Booksearch.css";
 
 function SearchForm(props) {
   return (
+    <div className="wrapper">
       <form>
         <div className="formInput">
           <input
@@ -19,6 +20,7 @@ function SearchForm(props) {
         </button>
         </div>
       </form>
+    </div>
   );
 }
 

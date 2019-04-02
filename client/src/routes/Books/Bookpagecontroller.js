@@ -27,11 +27,11 @@ export default class Bookpagecontroller extends React.Component {
           <button type="button" onClick={this.handlePageToggle} className="btn btn-danger btn-lrg m-3">{text}</button>
         </span>
         {this.state.viewSaved ? (
-          <div>
+          <div className="App-body">
             <Booksaved />
           </div>
         ) : (
-            <div>
+            <div className="App-body">
               <Booksearch />
             </div>
           )}

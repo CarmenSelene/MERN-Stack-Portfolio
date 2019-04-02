@@ -42,9 +42,9 @@ export default class Booksearch extends React.Component {
 
     savebook = (title, author, link) => {
         API.saveBook(title, author, link)
-          .then(res => this.setState({ books: res.data }))
-          .catch(err => console.log(err));
-      };
+            .then(res => this.setState({ books: res.data }))
+            .catch(err => console.log(err));
+    };
 
     render() {
         return (

@@ -1,7 +1,3 @@
-.bookTitleBox {
-    min-height: 100vh;
-}
-
 .bookControllerBox {
-    min-height: 100vh; 
+    min-height: 50vh;
 }
