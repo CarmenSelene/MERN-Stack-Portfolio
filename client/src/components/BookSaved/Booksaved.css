@@ -1,9 +1,12 @@
 ul.savedBooksArray {
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 li.savedBooksEach {
-    padding: 3px;
-    margin: 5px;
+    padding: 18px;
+    margin: 8px;
     list-style-type: none;
+    background-color: rgb(63, 62, 63);
+    border-radius: 20px;
 }

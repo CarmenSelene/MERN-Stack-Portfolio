@@ -1,3 +1,9 @@
 .bookControllerBox {
     min-height: 50vh;
 }
+
+.bookTitleBox {
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+  }

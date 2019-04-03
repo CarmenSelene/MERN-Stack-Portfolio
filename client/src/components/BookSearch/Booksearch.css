@@ -1,7 +1,6 @@
 ul.resultsBoxes {
-    display: inline;
-    margin: 0px;
-    padding: 0px;
+    width: 80%;
+    margin: auto;
 }
 
 li.eachResult {
