@@ -1,5 +1,5 @@
 # Saryn Caister's Portfolio
-## [MERN Stack Demo] MongoDB, Express, React, Node.js
+### [MERN Stack Demo] MongoDB, Express, React, Node.js
 
 Features:
 
