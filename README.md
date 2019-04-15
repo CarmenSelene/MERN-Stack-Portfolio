@@ -1,4 +1,4 @@
-# MERN application that utilizes
+## Saryn Caister's Portfolio MERN Demo
 
 Features:
 
