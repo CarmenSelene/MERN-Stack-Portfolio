@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
-import ProjectsNavBar from "../../components/ProjectsNavBar/ProjectsNavBar";
 import ProjectBox from "./ProjectBox";
 
 function Projects() {
@@ -10,7 +9,6 @@ function Projects() {
                 <h1 className="siteTitle">Projects</h1>
                 <Navbar />
             </header>
-            <ProjectsNavBar />
             <div className="App-body">
                 <ProjectBox />
             </div>

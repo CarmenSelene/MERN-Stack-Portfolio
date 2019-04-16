@@ -71,13 +71,6 @@ export default class GameBoard extends Component {
         if (this.state.Gameover === false) {
             return (
                 <div className="wrapper">
-                    <h1>Javascript Match Game</h1>
-                    <div class="d-flex bg-light text-dark mx-5">
-                        <div class="p-4 m-auto">
-                            <p className="text-justify p-4 m-2">
-                                Using a custom JSON file of image references and other data an array is created that tracks whether or not an image has been clicked on yet. User tries to click on all images without repeating any. Images shuffle based on random number generator after each click and "points" are tracked by the pages state.</p>
-                        </div></div>
-                    <br /><br />
                     <Gamebar
                         countstate={this.state.Count}
                         gamestate={this.state.Gameover}

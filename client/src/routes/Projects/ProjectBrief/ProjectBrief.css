@@ -1,0 +1,12 @@
+.demoImage {
+    max-width: 600px;
+    display: inline-block;
+}
+
+.projectsLink {
+    display: inline-flex;
+}
+
+.briefText {
+    font-size: 22px;
+}

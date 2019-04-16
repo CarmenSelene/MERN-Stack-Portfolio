@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
-import ProjectsNavBar from "../../components/ProjectsNavBar/ProjectsNavBar";
-import GameBox from "../../components/Game/GameBox/GameBoard";
+import GameBoard from "../../components/Game/GameBox/GameBoard";
 
 function Match() {
     return (
@@ -10,9 +9,8 @@ function Match() {
                 <h1 className="siteTitle">Match</h1>
                 <Navbar />
             </header>
-            <ProjectsNavBar />
             <div className="App-body">
-                <GameBox />
+                <GameBoard />
             </div>
         </div>
     );
