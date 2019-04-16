@@ -1,6 +1,6 @@
 .demoImage {
-    max-width: 600px;
-    display: inline-block;
+    width: 90%;
+    height: auto;
 }
 
 .projectsLink {
@@ -8,5 +8,12 @@
 }
 
 .briefText {
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.projectExternalLink {
+    font-weight: bold;
+    font-size: 16px;
+    color: darkblue;
+    margin: 5px;
 }
