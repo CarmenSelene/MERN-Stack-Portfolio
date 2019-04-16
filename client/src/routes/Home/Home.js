@@ -9,8 +9,10 @@ function Home() {
                 <h1 className="siteTitle">Saryn Caister</h1>
                 <Navbar />
             </header>
-            <div className="homevideobody">
-                <Hometext />
+            <div className="customHomeBody">
+                <div className="homevideobody">
+                    <Hometext />
+                </div>
             </div>
         </div>);
 }

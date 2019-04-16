@@ -1,8 +1,6 @@
 import React from 'react';
 import HomeLink from "./homeLink/homeLink";
-import Giphylink from "./giphyLink/giphyLink";
-import MatchLink from "./matchLink/matchLink";
-import BookLink from "./bookLink/bookLink";
+import ProjectsLink from "./projectsLink/projectsLink";
 import ContactLink from "./contactLink/contactLink";
 import LinkedinLink from "./linkedinLink/linkedinLink";
 import GithubLink from "./githubLink/githubLink";
@@ -11,9 +9,7 @@ function Navbar() {
     return (
         <ul className="nav App-navbar">
             <HomeLink />
-            <Giphylink />
-            <BookLink />
-            <MatchLink />
+            <ProjectsLink />
             <ContactLink />
             <LinkedinLink />
             <GithubLink />

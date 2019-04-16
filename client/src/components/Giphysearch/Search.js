@@ -38,6 +38,14 @@ class Search extends Component {
         return (
             <div className="wrapper">
                 <h1>Axios/API Demo</h1>
+                <div class="d-flex bg-light text-dark mx-5">
+                    <div class="p-4 m-auto">
+                        <p className="text-justify p-4 m-2">
+                            This page uses a bootstrap form to accept text input from the user and send it to the "Giphy" API via Axios.
+                            The below client side map function displays the first 10 results in neat boxes with custom styling.
+                </p>
+                    </div></div>
+                <br /><br />
                 <SearchForm
                     search={this.state.search}
                     handleFormSubmit={this.handleFormSubmit}

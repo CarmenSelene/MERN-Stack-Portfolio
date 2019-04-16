@@ -4,8 +4,8 @@ import "../Navbar.css";
 
 function bookLink() {
     return (
-        <li className="nav-item menuLink">
-        <Link to={'/books'}><strong>Books</strong></Link>
+        <li className="nav-item p-3 m-2">
+        <Link className="projectsLink" to={'/books'}><strong className="text-primary">Database Management</strong></Link>
         </li>
     );
 }

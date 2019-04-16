@@ -26,3 +26,8 @@ span.videoCaption {
     padding: 0px;
     min-height: 50vh;
 }
+
+.customHomeBody {
+    min-height: 60vh;
+    background: black;
+}
