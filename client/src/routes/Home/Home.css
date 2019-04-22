@@ -1,33 +1,17 @@
-.videoSpacer {
-    margin: auto;
-    text-align: center;
+.mainHomeBody {
+    min-height: 70vh;
+    background-color: #ffffff;
+    background-image: url("./HackLassonde-small.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top;
 }
 
-.overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:-1;
+.homeSpacer {
+    min-height: 275px;
 }
 
-span.videoCaption {
-    position: absolute;
-    z-index: 1;
-    color: white;
-    letter-spacing: 7px;
-    font-size: 15px;
-    font-style: oblique;
-    text-align: center;
-    padding: 45px;
-}
-
-.homevideobody {
-    margin: 0px;
-    padding: 0px;
-    min-height: 50vh;
-}
-
-.customHomeBody {
-    min-height: 60vh;
-    background: black;
+.headlineText {
+    background-color: rgb(240, 21, 185);
 }

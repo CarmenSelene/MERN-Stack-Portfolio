@@ -4,7 +4,7 @@ import "./Contact.css";
 function Contacttext() {
     return (
         <span className="contactFormSpacer">
-            <form className="mbr-form shadow-lg alert-dark" id="contact-form" action="https://formspree.io/thegreenmajority@gmail.com" method="post"
+            <form className="mbr-form shadow-lg bg-dark text-light" id="contact-form" action="https://formspree.io/thegreenmajority@gmail.com" method="post"
                 data-form-title="Contact Form"><input type="hidden" data-form-email="true" className="hideMe" />
                 <div className="row row-sm-offset">
                     <div className="col-sm-6 multi-horizontal" data-for="name">
@@ -31,7 +31,7 @@ function Contacttext() {
                         data-form-field="Message" id="message-form1-2w"></textarea>
                 </div>
                 <div className="input-group-btn p-2 pt-3 mx-5">
-                    <button type="submit" className="btn btn-secondary btn-form btn-block display-4">Submit</button>
+                    <button type="submit" className="btn btn-primary btn-form btn-block display-4">Submit</button>
                 </div>
             </form>
         </span>

@@ -1,19 +1,14 @@
 import React from 'react';
-import Videobacker from "./Videobacker";
 import "./Home.css";
 
 function Hometext() {
     return (
-        <div className="wrapper">
-            <span className="videoCaption">
-            <span className="p-3 mx-auto">
-            <h3>Welcome to Saryn Caister's Portfolio</h3>
-            <br />
-            <h6>View a demo from the navbar above</h6>
-            <h6> -- or click this screen if you need a smile --</h6>
+        <div className="mainHomeBody">
+            <div className="homeSpacer"></div>
+            <span className="p-3 mx-auto text-center align-bottom">
+                <h1 className="p-3 text-light headlineText">Hi! I'm Saryn Caister and I'm a Full-Stack Web Developer</h1>
+                <h3 className="p-3 text-light bg-primary">"Cool! I love it, but does it fit our MVP?"</h3>
             </span>
-            </span>
-            <Videobacker />
         </div>
     );
 }

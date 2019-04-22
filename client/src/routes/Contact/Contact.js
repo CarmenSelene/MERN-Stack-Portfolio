@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
 import Contacttext from "./Contacttext";
-import "../Home/Home.css";
 
 function Contact() {
     return (
