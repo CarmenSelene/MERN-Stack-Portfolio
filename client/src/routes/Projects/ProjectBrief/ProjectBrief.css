@@ -1,3 +1,23 @@
+.titleBacker {
+    color: #515d5e;
+    background-color: #f1f3ee;
+    font-size: 32px;
+    padding: 35px;
+    width: 90%;
+    margin: auto;
+    text-align: middle;
+}
+
+.subTitleBacker {
+    color: #515d5e;
+    background-color: #f1f3ee;
+    font-size: 24px;
+    padding: 25px;
+    width: 90%;
+    margin: auto;
+    text-align: middle;
+}
+
 .demoImage {
     width: 90%;
     height: auto;
@@ -8,7 +28,7 @@
 }
 
 .briefText {
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .projectExternalLink {
@@ -16,4 +36,20 @@
     font-size: 16px;
     color: darkblue;
     margin: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .titleBacker {
+        color: #515d5e;
+        background-color: #f1f3ee;
+        font-size: 24px;
+        padding: 15px;
+        width: 90%;
+        margin: auto;
+        }
+
+    .briefText {
+        font-size: 18px;
+    }
 }

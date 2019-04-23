@@ -4,9 +4,11 @@ import "./ProjectBrief.css";
 function FoodBrief() {
     return (
         <div className="d-inline">
-            <div className="my-4">
-                <h2>Food Waste Prevention App</h2>
-                <strong className="text-muted">HackLassonde Hackathon 2019 *First Place*</strong>
+            <div className="my-4 titleBacker">
+                <span className="px-2 mx-auto">
+                    <strong>Food Waste Prevention App</strong><br />
+                    <span className="text-muted subTitleBacker">HackLassonde Hackathon 2019 *First Place*</span>
+                </span>
             </div>
             <div className="bg-light text-dark">
                 <div className="row p-4 m-2">

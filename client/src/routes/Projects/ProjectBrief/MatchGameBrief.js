@@ -5,8 +5,10 @@ import "./ProjectBrief.css";
 function MatchGameBrief() {
     return (
         <div className="d-inline">
-            <div className="my-4">
-                <h2>Javascript Match Game</h2>
+            <div className="my-4 titleBacker">
+                <span className="px-2 mx-auto">
+                    <strong>Javascript Match Game</strong>
+                </span>
             </div>
             <div className="bg-light text-dark">
                 <div className="row p-4 m-2">

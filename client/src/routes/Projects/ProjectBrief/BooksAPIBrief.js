@@ -5,8 +5,8 @@ import "./ProjectBrief.css";
 function BooksAPIBrief() {
   return (
     <div className="d-inline">
-      <div className="my-4">
-        <h2>Google Books API w/ MongoDB</h2>
+      <div className="my-4 titleBacker">
+        <span className="px-2 mx-auto"><strong>Google Books API w/ MongoDB</strong></span>
       </div>
       <div className="bg-light text-dark">
         <div className="row p-4 m-2">

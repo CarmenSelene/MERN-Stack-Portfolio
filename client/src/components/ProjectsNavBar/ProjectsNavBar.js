@@ -5,7 +5,7 @@ function ProjectsNavBar(props) {
     return (
         <div className="d-flex bg-light text-dark">
             <div className="p-2 m-auto">
-                <h4 className="projectsLink p-2">Choose A Project</h4>
+                <strong className="projectsLink p-2">Choose A Project</strong>
                 <ul className="nav projectsMenuBar">
                     <li><button type="button" className="btn btn-dark m-2 p-3" onClick={() => props.viewBooksBrief()}>Database Management<br /><small className="text-primary">Google Books API</small></button></li>
                     <li><button type="button" className="btn btn-dark m-2 p-3" onClick={() => props.viewGiphyBrief()}>Axios Search<br /><small className="text-primary">Giphy API</small></button></li>

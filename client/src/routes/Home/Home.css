@@ -1,6 +1,5 @@
 .mainHomeBody {
-    min-height: 70vh;
-    background-color: #ffffff;
+    min-height: 75vh;
     background-image: url("./HackLassonde-small.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,5 +12,13 @@
 }
 
 .headlineText {
-    background-color: rgb(240, 21, 185);
+    background-color:#A37E97;
+}
+
+.taglineText {
+    color: #F1F3EE;
+    background-color: #A89560;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-style: italic;
 }

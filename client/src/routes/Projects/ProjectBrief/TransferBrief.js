@@ -4,8 +4,10 @@ import "./ProjectBrief.css";
 function TransferBrief() {
   return (
     <div className="d-inline">
-      <div className="my-4">
-        <h2>Transfer Community Marketplace</h2>
+      <div className="my-4 titleBacker">
+        <span className="px-2 mx-auto">
+          <strong>Transfer Community Marketplace</strong>
+        </span>
       </div>
       <div className="bg-light text-dark">
         <div className="row p-4 m-2">

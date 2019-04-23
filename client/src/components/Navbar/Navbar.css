@@ -25,6 +25,7 @@
     text-align: justify;
     letter-spacing: 3px;
     pointer-events: none;
+    color:#515d5e;
   }
 
   img.socialIcon {
@@ -33,11 +34,38 @@
     position: sticky;
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1000px) {
     ul.App-navbar {
       position: sticky;
-      padding: 10px;
-      margin: auto;
+      padding: 2px;
+      margin: 15px;
+      }
+  
+      li.menuLink {
+        list-style-type: none;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        margin: 0px;
+        margin-left: 10px;
+        }
+
+      li.whichPageLink {
+        list-style-type: none;
+        padding: 15px;
+        margin: 10px;
+        margin-right: 300px;
+        font-size: 32px;
+        text-align: justify;
+        letter-spacing: 5px;
+      }
+  }
+
+  @media only screen and (max-width: 600px) {
+    ul.App-navbar {
+      position: sticky;
+      padding: 2px;
+      margin: 0px;
       }
   
     li.menuLink {
@@ -45,17 +73,23 @@
       font-size: 20px;
       text-align: center;
       letter-spacing: 1px;
-      margin: auto;
+      margin: 0px;
+      margin-left: 10px;
       }
 
       li.whichPageLink {
         list-style-type: none;
-        padding: 15px;
+        padding: 5px;
         margin: 10px;
-        font-size: 32px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        font-size: 34px;
         text-align: justify;
         letter-spacing: 5px;
-        color: rgb(255, 7, 201);
       }
-  
+
+      img.socialIcon {
+        display: inline;
+        position: relative;
+      }
   }

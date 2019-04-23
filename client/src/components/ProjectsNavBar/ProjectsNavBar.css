@@ -1,7 +1,7 @@
 ul.projectsMenuBar {
     margin: 0px;
     margin-bottom: 15px;
-    position: sticky;
+    position: relative;
     padding: 0px;
   }
 
@@ -13,6 +13,12 @@ li.projectsMenuLink {
     text-align: center;
     font-size: 18px;
     text-align: justify;
+  }
+
+  .projectsLink {
+    font-size: 28px;
+    width: 80%;
+    margin: auto;
   }
 
   A.projectsLink { color: none }

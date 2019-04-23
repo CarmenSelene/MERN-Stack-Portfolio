@@ -5,8 +5,10 @@ import "./ProjectBrief.css";
 function GiphyAPIBrief() {
     return (
         <div className="d-inline">
-            <div className="my-4">
-                <h2>Giphy API w/ Axios Demo</h2>
+            <div className="my-4 titleBacker">
+                <span className="px-2 mx-auto">
+                    <strong>Giphy API w/ Axios Demo</strong>
+                </span>
             </div>
             <div className="bg-light text-dark">
                 <div className="row p-4 m-2">
@@ -17,7 +19,7 @@ function GiphyAPIBrief() {
                         The below client side map function displays the first 10 results in neat boxes with custom styling.</p>
                     </div>
                     <div className="col">
-                    <Link className="projectsLink" to={'/giphy'}><strong className="text-primary border border-dark bg-dark p-3 m-5">Go To Live Page</strong></Link>
+                        <Link className="projectsLink" to={'/giphy'}><strong className="text-primary border border-dark bg-dark p-3 m-5">Go To Live Page</strong></Link>
                         <img src={require('./giphyDemo.png')} alt="Giphy API Demo" className="demoImage" />
                     </div>
                 </div>
