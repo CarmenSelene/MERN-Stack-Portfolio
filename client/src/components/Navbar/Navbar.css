@@ -24,6 +24,7 @@
     font-size: 36px;
     text-align: justify;
     letter-spacing: 3px;
+    pointer-events: none;
   }
 
   img.socialIcon {
