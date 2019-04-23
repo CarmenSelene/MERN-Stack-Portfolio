@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import Giphy from "./routes/Giphy/Giphy";
 import Home from "./routes/Home/Home";
 import Match from "./routes/Match/Match";
@@ -13,6 +14,8 @@ function App() {
   return (
     <Router>
       <div className="App">
+        {/* Navbar */}
+        <Navbar />
         {/* Home */}
         <Route exact={true} path="/" component={Home} />
         {/* Project Page */}

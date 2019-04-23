@@ -30,7 +30,7 @@ function Contacttext() {
                     <textarea type="text" className="form-control" name="message" placeholder="I can't wait to hear from you!" rows="7"
                         data-form-field="Message" id="message-form1-2w"></textarea>
                 </div>
-                <div className="input-group-btn p-2 pt-3 mx-5">
+                <div className="input-group-btn p-3 mx-3">
                     <button type="submit" className="btn btn-primary btn-form btn-block display-4">Submit</button>
                 </div>
             </form>

@@ -1,33 +1,60 @@
   ul.App-navbar {
-    margin: 35px;
-    margin-left: 5px;
-    margin-right: 45px;
     position: sticky;
     padding: 10px;
+    margin: auto;
   }
 
   li.menuLink {
     list-style-type: none;
-    margin-left: 3px;
-    margin-right: 3px;
     padding: 15px;
-    text-align: center;
     font-size: 24px;
     text-align: justify;
+    letter-spacing: 2px;
   }
 
-  img.linkedinLink {
-    width: 40px;
+  .blockOfLinks {
+    display: inline-flex;
+    position: initial;
   }
 
-  img.githubLink {
+  li.whichPageLink {
+    list-style-type: none;
+    padding: 7px;
+    margin-right: 25px;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+  img.socialIcon {
     width: 40px;
+    display: block;
+    position: sticky;
   }
   
-  A { color: white }
+  @media only screen and (max-width: 800px) {
+    ul.App-navbar {
+      position: sticky;
+      padding: 10px;
+      margin: auto;
+      }
+  
+    li.menuLink {
+      list-style-type: none;
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 1px;
+      margin: auto;
+      }
 
-  A:link { text-decoration: none; }
-
-  A:active { text-decoration: none; }
-
-  A:hover { color: rgb(255, 7, 201); text-decoration: none; }
+      li.whichPageLink {
+        list-style-type: none;
+        padding: 15px;
+        margin: 10px;
+        font-size: 32px;
+        text-align: justify;
+        letter-spacing: 5px;
+        color: rgb(255, 7, 201);
+      }
+  
+  }

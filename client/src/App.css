@@ -59,3 +59,12 @@ h1.siteTitle {
   color: #61dafb;
 }
 
+A { color: white }
+
+A:link { text-decoration: none; }
+
+A:active { text-decoration: none; }
+
+A:hover { color: rgb(255, 7, 201); text-decoration: none; }
+
+
