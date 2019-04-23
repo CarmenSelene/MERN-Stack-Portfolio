@@ -56,6 +56,14 @@ A:active { text-decoration: none; }
 
 A:hover { color: #a89560; }
 
+.siteButton {
+  background-color: #a89560;
+  color: #f1f3ee;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
 @media only screen and (max-width: 600px) {
   .App-header {
     background-color: #515d5e;

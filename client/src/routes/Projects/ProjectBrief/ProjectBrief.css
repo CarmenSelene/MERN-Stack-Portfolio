@@ -49,6 +49,11 @@
         margin: auto;
         }
 
+        .projectsLink {
+            display: inline-flex;
+            font-size: 18px;
+        }
+
     .briefText {
         font-size: 18px;
     }
