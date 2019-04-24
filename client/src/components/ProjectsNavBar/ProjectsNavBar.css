@@ -1,24 +1,9 @@
-ul.projectsMenuBar {
-    margin: 0px;
-    margin-bottom: 15px;
-    position: relative;
-    padding: 0px;
-  }
-
-li.projectsMenuLink {
+.projectsMenuLink {
     list-style-type: none;
-    margin-left: 3px;
-    margin-right: 3px;
-    padding: 25px;
     text-align: center;
     font-size: 18px;
-    text-align: justify;
-  }
-
-  .projectsLink {
-    font-size: 28px;
-    width: 80%;
-    margin: auto;
+    text-align: center;
+    border-radius: 0px;
   }
 
   A.projectsLink { color: none }

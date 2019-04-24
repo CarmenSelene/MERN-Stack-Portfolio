@@ -48,27 +48,27 @@ export default class ProjectBox extends React.Component {
 
     conditionalRenderPanel = () => {
         if (this.state.whichBrief === "books") {
-            return (<div className="wrapper mb-4">
+            return (<div className="wrapper">
                 <ProjectsNavBar viewBooksBrief={() => this.viewBooksBrief()} viewGiphyBrief={() => this.viewGiphyBrief()} viewMatchBrief={() => this.viewMatchBrief()} viewTransferBrief={() => this.viewTransferBrief()} viewETASBrief={() => this.viewETASBrief()} viewFoodBrief={() => this.viewFoodBrief()} />
                 <BooksAPIBrief /></div>);
         } else if (this.state.whichBrief === "giphy") {
-            return (<div className="wrapper mb-4">
+            return (<div className="wrapper">
                 <ProjectsNavBar viewBooksBrief={() => this.viewBooksBrief()} viewGiphyBrief={() => this.viewGiphyBrief()} viewMatchBrief={() => this.viewMatchBrief()} viewTransferBrief={() => this.viewTransferBrief()} viewETASBrief={() => this.viewETASBrief()} viewFoodBrief={() => this.viewFoodBrief()} />
                 <GiphyAPIBrief /></div>);
         } else if (this.state.whichBrief === "match") {
-            return (<div className="wrapper mb-4">
+            return (<div className="wrapper">
                 <ProjectsNavBar viewBooksBrief={() => this.viewBooksBrief()} viewGiphyBrief={() => this.viewGiphyBrief()} viewMatchBrief={() => this.viewMatchBrief()} viewTransferBrief={() => this.viewTransferBrief()} viewETASBrief={() => this.viewETASBrief()} viewFoodBrief={() => this.viewFoodBrief()} />
                 <MatchGameBrief /></div>);
         } else if (this.state.whichBrief === "transfer") {
-            return (<div className="wrapper mb-4">
+            return (<div className="wrapper">
                 <ProjectsNavBar viewBooksBrief={() => this.viewBooksBrief()} viewGiphyBrief={() => this.viewGiphyBrief()} viewMatchBrief={() => this.viewMatchBrief()} viewTransferBrief={() => this.viewTransferBrief()} viewETASBrief={() => this.viewETASBrief()} viewFoodBrief={() => this.viewFoodBrief()} />
                 <TransferBrief /></div>);
         } else if (this.state.whichBrief === "etas") {
-            return (<div className="wrapper mb-4">
+            return (<div className="wrapper">
                 <ProjectsNavBar viewBooksBrief={() => this.viewBooksBrief()} viewGiphyBrief={() => this.viewGiphyBrief()} viewMatchBrief={() => this.viewMatchBrief()} viewTransferBrief={() => this.viewTransferBrief()} viewETASBrief={() => this.viewETASBrief()} viewFoodBrief={() => this.viewFoodBrief()} />
                 <ETASBrief /></div>);
         } else if (this.state.whichBrief === "food") {
-            return (<div className="wrapper mb-4">
+            return (<div className="wrapper">
                 <ProjectsNavBar viewBooksBrief={() => this.viewBooksBrief()} viewGiphyBrief={() => this.viewGiphyBrief()} viewMatchBrief={() => this.viewMatchBrief()} viewTransferBrief={() => this.viewTransferBrief()} viewETASBrief={() => this.viewETASBrief()} viewFoodBrief={() => this.viewFoodBrief()} />
                 <FoodBrief /></div>);
         }
