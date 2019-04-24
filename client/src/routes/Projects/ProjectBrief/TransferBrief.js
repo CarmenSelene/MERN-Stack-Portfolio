@@ -18,7 +18,6 @@ function TransferBrief() {
               <li>Node.js</li>
             </ul>
             <p className="text-left briefText px-3">
-              <strong className="text-center">[MERN Stack] MongoDB, Express, React, Node.js</strong><br /><br />
               Transfer is a community marketplace app focused around Toronto using TTC subway stations as meetup points. Users can create accounts with passwords, log in and purchase/trade/sell items by searching by TTC subway station. App is currently still in development.
             </p>
           </div>
