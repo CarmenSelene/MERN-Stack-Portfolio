@@ -1,5 +1,6 @@
 body {
-  background-color: #79667e;
+  background-color: #847474;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-header {
@@ -10,6 +11,7 @@ body {
   font-size: calc(12px + 2vmin);
   color: white;
   text-transform: uppercase;
+  padding: 15px;
 }
 
 .App-navbar {
@@ -20,7 +22,7 @@ body {
 }
 
 .App-body {
-  padding: 15px;
+  padding: 0px;
   margin: 0px;
   min-height: 80vh;
 }
@@ -31,7 +33,7 @@ body {
 }
 
 .App-footer {
-  background-color: #515D5E;
+  background-color: #3e404f;
   max-height: 18vh;
   width: 100%;
   font-size: 36px;
@@ -54,10 +56,10 @@ A:link { text-decoration: none; }
 
 A:active { text-decoration: none; }
 
-A:hover { color: #a89560; }
+A:hover { color: #ac8b7e; }
 
 .siteButton {
-  background-color: #a89560;
+  background-color: #ac8b7e;
   color: #f1f3ee;
   font-weight: bold;
   font-size: 14px;
@@ -82,7 +84,7 @@ A:hover { color: #a89560; }
   }
 
   .App-footer {
-    background-color: #515D5E;
+    background-color: #3e404f;
     max-height: 18vh;
     width: 100%;
     font-size: 28px;
@@ -95,3 +97,11 @@ A:hover { color: #a89560; }
     display: inline-block;
   }
 }
+
+/* Main Color Palatte
+
+#f1f3ee
+#ac8b7e
+#a37e97 (main)
+#79667e
+#515d5e */
