@@ -20,15 +20,20 @@ function MatchGameBrief() {
                                     Using a custom JSON file of image references and other data an array is created that tracks whether or not an image has been clicked on yet. User tries to click on all images without repeating any. Images shuffle based on random number generator after each click and "points" are tracked by the pages state.
                                     </p>
                                 <div class="row align-items-center">
-                                    <div class="col-lg">
+                                    <div class="col">
                                         <ul>
                                             <li>JSON</li>
                                             <li>Bootstrap 4</li>
-                                            <li>API</li>
-                                            <li>Axios</li>
-                                            <li>Javascript</li>
                                         </ul>
                                     </div>
+                                    <div className="col">
+                                        <ul>
+                                            <li>Axios</li>
+                                            <li>Javascript ES6</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
                                     <div class="col-lg">
                                         <Link to={'/match'}><button type="button" className="btn btn-form btn-block display-4 site siteButton"><strong className="linkTextSize">Visit Page</strong></button></Link>
                                     </div>

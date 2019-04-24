@@ -20,14 +20,20 @@ function BooksAPIBrief() {
                   This page utilizes the Google Books API to search for books and print out various data from the response to the screen. Users can search the API for data, and then store it on the connected MongoDB database for later use.
                             </p>
                 <div class="row align-items-center">
-                  <div class="col-lg">
+                  <div class="col">
                     <ul>
                       <li>API</li>
                       <li>Axios</li>
+                    </ul>
+                  </div>
+                  <div className="col">
+                    <ul>
                       <li>MongoDB</li>
                       <li>JSON</li>
                     </ul>
                   </div>
+                </div>
+                <div class="row align-items-center">
                   <div class="col-lg">
                     <Link to={'/books'}><button type="button" className="btn btn-form btn-block display-4 site siteButton"><strong className="linkTextSize">Visit Page</strong></button></Link>
                   </div>

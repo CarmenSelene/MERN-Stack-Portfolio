@@ -35,11 +35,11 @@ function ETASBrief() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div class="col-lg">
-                                        <a href="https://prezi.com/4p4e93t6taaz/etas-evoke-2019-hackathon-finalist/" rel="noopener noreferrer" target="_blank" className="projectsLink"><button type="button" className="btn btn-form btn-block display-4 site siteButton"><strong className="linkTextSize">View Prezi Presentation</strong></button></a>
+                                <div class="row align-items-center">
+                                        <div class="col-lg">
+                                            <a href="https://prezi.com/4p4e93t6taaz/etas-evoke-2019-hackathon-finalist/" rel="noopener noreferrer" target="_blank" className="projectsLink"><button type="button" className="btn btn-form btn-block display-4 site siteButton"><strong className="linkTextSize">View Prezi Presentation</strong></button></a>
+                                        </div>
                                     </div>
-                                </div>
                             </span>
                         </div>
                     </div>

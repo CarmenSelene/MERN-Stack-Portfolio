@@ -5,7 +5,7 @@ function ProjectsNavBar(props) {
     return (
         <div className="bg-light">
             <div className="p-4">
-                <h2>Choose A Project</h2>
+                <h2 className="text-center text-muted p-3">Choose A Project</h2>
                 <div className="row">
                     <div className="col">
                         <ul class="list-group">

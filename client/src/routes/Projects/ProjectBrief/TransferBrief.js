@@ -19,15 +19,25 @@ function TransferBrief() {
                   Transfer is a community marketplace app focused around Toronto using TTC subway stations as meetup points. Users can create accounts with passwords, log in and purchase/trade/sell items by searching by TTC subway station. App is currently still in development.
                             </p>
                 <div class="row align-items-center">
-                  <div class="col-lg">
+                  <div className="col text-center">
+                    <p className="text-muted">~MERN Stack~</p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
                     <ul>
-                      <p className="text-muted mt-2">~MERN Stack~</p>
                       <li>MongoDB</li>
                       <li>Express</li>
+                    </ul>
+                  </div>
+                  <div className="col">
+                    <ul>
                       <li>React</li>
                       <li>Node.js</li>
                     </ul>
                   </div>
+                </div>
+                <div class="row align-items-center">
                   <div class="col-lg">
                     <a href="https://obscure-brushlands-10510.herokuapp.com" rel="noopener noreferrer" target="_blank" className="projectsLink"><button type="button" className="btn btn-form btn-block display-4 site siteButton"><strong className="linkTextSize">Visit Site</strong></button></a>
                   </div>

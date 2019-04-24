@@ -20,11 +20,16 @@ function FoodBrief() {
                                     Food Waste Buddy is a Hackathon Winning submission that uses Google Home and a mySQL server to create custom voice input/output alerts to help prevent food waste. The user talks into the device, which understands what type of item is being submitted, and applies a set of expirey reminders to help prevent food waste in the home.
                             </p>
                                 <div class="row align-items-center">
-                                    <div class="col-lg">
+                                    <div class="col">
                                         <ul>
                                             <li>Project Manager</li>
-                                            <li>API/Axios</li>
                                             <li>mySQL</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col">
+                                        <ul>
+                                            <li>API</li>
+                                            <li>Axios</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg">
