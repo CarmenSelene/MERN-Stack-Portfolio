@@ -1,34 +1,35 @@
-ul.gameBox {
+.gameBox {
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    margin-bottom: 5vh;
 }
 
-li.clickyBoxes {
+.clickyBoxes {
     list-style-type: none;
-    display: inline-block;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
 }
 
-img.clickyBoxes {
-    width: 250px;
-    height: 225px;
-    margin: 5px;
+.clickyImg {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
     border: inset;
-    border-color: red;
-    border-width: 6px;
+    padding: 0px;
 }
 
 .gameOver {
     text-align: center;
-    margin: 150px;
     font-weight: bolder;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
 }
 
 .gameOverButton {
     text-align: center;
     font-size: 25px;
-    background-color: red;
     padding: 15px;
     font-weight: bolder;
 }

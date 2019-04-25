@@ -1,27 +1,23 @@
 ul.gameBar {
     display: flex;
     flex-direction: row;
-    border-color: rgb(214, 3, 151);
-    border-width: 12px;
+    border-width: 6px;
     border-style: inset;
     text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-top: 25px;
 }
 
 li.matchCounter {
-    display: inline;
+    display: block;
     margin: auto;
-    font-size: calc(8px + 3vmin);
-    padding: 25px;
+    font-size: 26px;
+    padding: 15px;
 }
 
 li.gameDesc {
-    display: inline;
+    display: block;
     margin: auto;
-    font-size: calc(2px + 3vmin);
+    font-size: 26px;
     padding: 15px;
-    color: darkmagenta;
+    text-transform: none;
 }

@@ -3,12 +3,12 @@ import "./Gamebar.css";
 
 function Gamebar(props) {
     return (
-            <ul className="gameBar">
+            <ul className="gameBar mx-5 p-2">
                 <li className="matchCounter">
                     Points: {props.countstate}
                 </li>
                 <li className="gameDesc">
-                    How many clicks before a repeat click?
+                    Can you click them all?
                 </li>
             </ul>
         );
