@@ -10,15 +10,17 @@ function Navbar() {
     return (
         <header className="App-header">
             <ul className="nav App-navbar">
-                <WhichPage />
                 <div className="blockOfLinks">
-                <HomeLink />
-                <ProjectsLink />
-                <ContactLink />
+                    <WhichPage />
                 </div>
-                <div className="blockOfLinks">
-                <LinkedinLink />
-                <GithubLink />
+                <div className="blockOfLinks align-content-middle">
+                    <HomeLink />
+                    <ProjectsLink />
+                    <ContactLink />
+                </div>
+                <div className="blockOfLinks align-content-middle">
+                    <LinkedinLink />
+                    <GithubLink />
                 </div>
             </ul>
         </header>

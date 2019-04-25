@@ -21,7 +21,7 @@
     list-style-type: none;
     padding: 7px;
     margin-right: 25px;
-    font-size: 36px;
+    font-size: 44px;
     text-align: justify;
     letter-spacing: 3px;
     pointer-events: none;
@@ -38,7 +38,6 @@
     ul.App-navbar {
       position: sticky;
       padding: 2px;
-      margin: 15px;
       }
   
       li.menuLink {
@@ -58,6 +57,11 @@
         font-size: 32px;
         text-align: justify;
         letter-spacing: 5px;
+      }
+
+      .blockOfLinks {
+        display: inline-flex;
+        margin: auto;
       }
   }
 
@@ -92,4 +96,5 @@
         display: inline;
         position: relative;
       }
+
   }
