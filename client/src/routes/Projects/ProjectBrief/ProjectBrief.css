@@ -20,13 +20,6 @@
     padding: 40px;
     width: 90%;
     margin: auto;
-    text-align: middle;
-    align-content: middle;
-}
-
-.demoImage {
-    width: 90%;
-    height: auto;
 }
 
 .projectsLink {
@@ -42,20 +35,28 @@
 
 .briefText {
     font-size: 22px;
+    text-align: left;
+    padding: 5px;
+    margin: 15px;
+    min-width: 90%;
 }
 
+.demoImg {
+    width: 90%;
+    max-width: 500px;
+    min-width: 350px;
+    height: auto;
+}
 
-@media only screen and (max-width: 600px) {
-    .titleBacker {
-        color: #515d5e;
-        background-color: #f1f3ee;
-        font-size: 24px;
-        padding: 15px;
-        width: 90%;
-        margin: auto;
-        }
+.newBox {
+    display: none;
+}
 
-    .briefText {
-        font-size: 18px;
+@media screen and (max-width: 900px) {
+    .imgBox {
+        display: none;
+    }
+    .newBox {
+        display: inline-block;
     }
 }
