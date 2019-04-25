@@ -11,7 +11,8 @@ function BooksAPIBrief() {
       <div className="my-5 bodyBacker text-center">
         <div class="row align-items-center imgBox">
           <div class="col-6">
-            <img src={require('./booksDemo.png')} alt="Match Game Demo" className="demoImg border p-1 text-center" />
+            <img src={require('./booksDemo.png')} alt="Match Game Demo" className="demoImg border m-2 text-center" />
+            <br />
           </div>
           <div class="col-6">
             <p className="briefText">
@@ -27,20 +28,20 @@ function BooksAPIBrief() {
           </div>
         </div>
         <div class="row text-left">
-          <div className="col-2"></div>
-          <div class="col-4">
+        <div className="col-2 imgBox"></div>
+        <div className="col-4">
             <ul>
               <li>API</li>
               <li>Axios</li>
             </ul>
           </div>
-          <div class="col-4">
+          <div className="col-4">
             <ul>
               <li>MongoDB</li>
               <li>JSON</li>
             </ul>
           </div>
-          <div className="col-2"></div>
+          <div className="col-2 imgBox"></div>
         </div>
         <div class="row align-items-center">
           <div class="col-12">
