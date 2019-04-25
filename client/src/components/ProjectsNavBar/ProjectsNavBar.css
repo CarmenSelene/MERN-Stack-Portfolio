@@ -2,8 +2,12 @@
     list-style-type: none;
     text-align: center;
     font-size: 18px;
-    text-align: center;
-    border-radius: 0px;
+  }
+
+  .smallProjectsMenuLink {
+    list-style-type: none;
+    font-size: 14px;
+    text-decoration: none;
   }
 
   A.projectsLink { color: none }
@@ -13,3 +17,13 @@
   A:active.projectsLink { text-decoration: none; }
 
   A:hover.projectsLink { color: rgb(255, 7, 201); text-decoration: none; }
+
+  @media screen and (max-width: 900px) {
+    .imgBox {
+        display: none;
+    }
+    .newBox {
+        display: inline-block;
+        margin: auto;
+    }
+}

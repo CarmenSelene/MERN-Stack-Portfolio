@@ -5,16 +5,16 @@ import "./ProjectBrief.css";
 function GiphyAPIBrief() {
     return (
         <div className="d-inline-block">
-            <div className="my-5 titleBacker text-center">
+            <div className="my-4 titleBacker text-center">
                 <strong>Giphy API w/ Axios Demo</strong>
             </div>
-            <div className="my-5 bodyBacker text-center">
-                <div class="row align-items-center imgBox">
-                    <div class="col-6">
+            <div className="my-3 bodyBacker text-center">
+                <div className="row align-items-center imgBox">
+                    <div className="col-6">
                         <img src={require('./giphyDemo.png')} alt="Giphy API Demo" className="demoImg border m-2 text-center" />
                         <br />
                     </div>
-                    <div class="col-6">
+                    <div className="col-6">
                         <p className="briefText">
                             This page uses a bootstrap form to accept text input from the user and send it to the "Giphy" API via Axios.
                             The below client side map function displays the first 10 results in neat boxes with custom styling.
@@ -22,14 +22,14 @@ function GiphyAPIBrief() {
                     </div>
                 </div>
                 <div className="newBox">
-                    <div class="col-sm-12">
+                    <div className="col-sm-12">
                         <p className="briefText">
                             This page uses a bootstrap form to accept text input from the user and send it to the "Giphy" API via Axios.
                                         The below client side map function displays the first 10 results in neat boxes with custom styling.
                                     </p>
                     </div>
                 </div>
-                <div class="row text-left">
+                <div className="row text-left">
                     <div className="col-2 imgBox"></div>
                     <div className="col-4">
                         <ul>
@@ -45,8 +45,8 @@ function GiphyAPIBrief() {
                     </div>
                     <div className="col-2 imgBox"></div>
                 </div>
-                <div class="row align-items-center">
-                    <div class="col-12">
+                <div className="row align-items-center">
+                    <div className="col-12">
                         <Link to={'/giphy'}><button type="button" className="btn btn-form btn-block display-4 site siteButton"><strong className="linkTextSize">Visit Page</strong></button></Link>
                     </div>
                 </div>
