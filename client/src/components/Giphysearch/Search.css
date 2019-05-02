@@ -1,5 +1,3 @@
-
-
 li.resultsBoxes {
     list-style-type: none;
     display: inline;
@@ -9,6 +7,7 @@ img.clickyBoxes {
     width: 150px;
     height: 125px;
     margin: 5px;
+    box-shadow: inset x y blur spread color;
 }
 
 ul.giphySearchBar {
@@ -24,6 +23,27 @@ li.giphySearch {
     text-align: justify;
     font-size: 18px;
 }
+
+.matchBox {
+    width: 90%;
+}
+
+.vignette {
+    -webkit-box-shadow:
+          inset 0 0 50px #000,
+                  inset 0 0 50px #000,
+                  inset 0 0 50px #000;
+    
+       -moz-box-shadow:
+          inset 0 0 50px #000,
+                  inset 0 0 50px #000,
+                  inset 0 0 50px #000;
+    
+            box-shadow:
+          inset 0 0 50px #000,
+                  inset 0 0 50px #000,
+                  inset 0 0 50px #000;
+  }
 
 
 

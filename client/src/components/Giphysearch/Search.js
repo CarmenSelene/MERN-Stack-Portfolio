@@ -36,7 +36,7 @@ class Search extends Component {
 
     render() {
         return (
-            <div className="wrapper">
+            <div className="p-4">
                 <SearchForm
                     search={this.state.search}
                     handleFormSubmit={this.handleFormSubmit}

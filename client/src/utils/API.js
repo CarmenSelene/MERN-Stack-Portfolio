@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const GiphyBASEURL = "https://api.giphy.com/v1/gifs/search?q=";
-const GiphyAPIKEY = "&api_key=dc6zaTOxFJmzC&limit=10";
+const GiphyAPIKEY = "&api_key=g6v21auUwsQFGE2I1WiUV8wIS7Lo3Zfx&limit=12";
 
 const BookBASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
 const BookAPIKEY = "&orderBy=newest";
